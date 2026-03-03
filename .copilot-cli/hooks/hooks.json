@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "command",
+        "bash": "\"${COPILOT_PLUGIN_ROOT:-$(cd \"$(dirname \"$0\")/../..\" && pwd)}/hooks/run-hook.cmd\" session-start",
+        "powershell": "& \"$env:COPILOT_PLUGIN_ROOT\\hooks\\run-hook.cmd\" session-start",
+        "timeoutSec": 30
+      }
+    ]
+  }
+}

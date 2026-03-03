@@ -51,6 +51,16 @@ In Cursor Agent chat, install from marketplace:
 /plugin-add superpowers
 ```
 
+### GitHub Copilot CLI
+
+Install via the plugin system:
+
+```bash
+copilot plugin install obra/superpowers
+```
+
+**Detailed docs:** [.copilot-cli/INSTALL.md](.copilot-cli/INSTALL.md)
+
 ### Codex
 
 Tell Codex:
